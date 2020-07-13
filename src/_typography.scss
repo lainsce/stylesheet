@@ -27,17 +27,10 @@ label.h4,
     font-size: 1.22em
 }
 
-.accent,
-.link,
-:link {
+.accent {
     color: #{'@accent_color'};
 }
 
-.dim-label,
-:visited {
+.dim-label {
     opacity: 0.75;
-}
-
-:link:hover label {
-  text-decoration: underline;
 }
